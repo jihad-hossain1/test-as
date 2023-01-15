@@ -111,7 +111,7 @@ main {
 
 .feature-image .image {
     margin: 6px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .quick-feature-heading {
