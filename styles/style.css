@@ -284,8 +284,10 @@ main {
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    
+    align-items: flex-end;    
+}
+.copyright div p{
+    padding-bottom: 10px;
 }
 
 
