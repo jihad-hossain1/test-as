@@ -290,12 +290,3 @@ main {
     padding-bottom: 10px;
 }
 
-
-
-/* media quary */
-
-@media screen and (max-width: 576px) {
-    .banner img{
-        width: 100%;
-    }
-}
