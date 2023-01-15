@@ -55,6 +55,13 @@
         gap: 0;
         padding-top: 80px;
     }
+    #exp{
+        width: 100%;
+        max-width: 190px;
+    }
+    .experience h2{  
+        font-size: 45px;
+    }
     .fe-title h2 {
         font-weight: 700;
         font-size: 35px;  
@@ -100,4 +107,9 @@
         width: 100%;
         max-width: 80px;
     }
+    .copyright div p{
+        padding-bottom: 8px;
+        font-size: 10px;
+    }
+    
 }
