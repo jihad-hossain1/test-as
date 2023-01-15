@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+#hide {
+    display: none;
+}
+
+/*--------------------
+     header section style 
+---------------------- */
+
+/* company name and nav section style  */
+header {
+    margin: auto;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.main-content {
+    width: 1000px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.company-navi {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.company-name h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.company-navi nav a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* banner section style  */
+.banner {
+    margin: auto;
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 30px;
+
+}
+
+.title-discription {
+    color: #727272;
+    padding-bottom: 30px;
+}
+
+.btn-primary {
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 30px;
+    color: aliceblue;
+    background-color: #FF900E;
+    cursor: pointer;
+}
+
+.banner-image {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.banner-image div img{
+    width: 1000px;
+}
+
+
+
+/* ------------------
+        main content 
+ ---------------------- */
+main {
+    margin: auto;
+    width: 1440px;
+    padding-top: 80px;
+}
+
+/* Quick feature section style  */
+.quick-feature {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.feature-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.feature-image .image {
+    margin: 6px;
+    cursor: pointer;
+}
+
+.quick-feature-heading {
+    padding-top: 270px;
+    height: 300px;
+}
+
+.quick-feature-heading h2 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 24px;
+
+}
+
+.quick-feature-heading p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+/* Feature section style  */
+.feature {
+    display: flex;
+    gap: 50px;
+    padding-top: 120px;
+}
+
+.feature-title {
+    padding-bottom: 30px;
+}
+
+.fe-title {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.fe-title h2 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 20px;
+    border-left: 10px solid #FF900E;
+}
+
+.feature-title p {
+    color: #727272;
+}
+
+.feature-discribe .content {
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+
+}
+
+#exp {
+    position: relative;
+    right: 74px;
+    top: -140px;
+
+}
+
+.architect-image img {
+    width: 700px;
+    height: 851px;
+}
+
+.architect {
+    padding-left: 70px;
+}
+
+.experience {
+    text-align: center;
+    padding: 45px;
+    background-color: #FF900E;
+    height: 120px;
+    width: 241px;
+    border-radius: 5px;
+}
+
+.experience h2 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.experience h2,
+.experience p {
+    color: #ffffff;
+}
+
+/* some facts section style  */
+.facts {
+    padding-top: 120px;
+}
+
+.facts h2 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+.facts p {
+    color: #727272;
+}
+
+.achivement-history {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding-top: 100px;
+}
+
+.history-container {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 55px;
+}
+
+.history-container:hover {
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+    /* border-bottom: 3px solid #FF900E; */
+    transition: 0.5s;
+    background-color: rgbahsla(32, 100%, 53%, 0.184);
+}
+
+.history-container h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.history-container p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* sponspores section style  */
+.sponspors {
+    padding-top: 160px;
+    padding-bottom: 50px;
+    text-align: center;
+    /* margin: auto; */
+}
+
+.sponspors h2 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.sponspors p{
+    color: #727272;
+}
+.sponspor-icon{
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+    padding-bottom: 100px;
+}
+
+
+
+/*----------------------
+    footer section style  
+------------------------*/
+
+.copyright{
+    background-color: #FFF4E7;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+
+
+/* media quary */
+
+@media screen and (max-width: 576px) {
+    .banner img{
+        width: 100%;
+    }
+}
